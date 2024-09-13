@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentation Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Python Documentation.</header>
+      <ul id="menu" class="menu">
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#Installation_and_Setup">Installation and Setup
+</a></li>
+        <li><a class="nav-link" href="#Basic_Syntax">Basic Syntax
+</a></li>
+        <li><a class="nav-link" href="#Standard_Libraries">Standard Libraries
+</a></li>
+        <li><a class="nav-link" href="#Error_Handling_and_Debugging">Error Handling and Debugging</a></li>
+        <li><a class="nav-link" href="#Best_Practices_and_Coding_Style">Best Practices and Coding Style</a></li>
+
+
+
+      </ul>
+    </nav>
+<main class="main-doc" id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <p>Python is a versatile, high-level programming language that is widely used for various applications such as web development, data analysis, artificial intelligence, and more.</p>
+    <p>It was created by Guido van Rossum and first released in 1991.</p>
+    <p>Python emphasizes readability and simplicity, making it an excellent choice for both beginners and experienced programmers.</p>
+    <code>print("Hello, World!")</code>
+  </section>
+
+  <section class="main-section" id="Installation_and_Setup">
+    <header>Installation and Setup</header>
+    <p>To install Python, you can download the latest version from the official Python website.</p>
+    <p>After downloading, follow the installation instructions for your operating system.</p>
+    <ul>
+      <li>For Windows, run the installer and ensure that you check the option to add Python to your PATH.</li>
+      <li>For macOS, you can install Python using Homebrew with the command: <code>brew install python</code></li>
+      <li>For Linux, Python is usually pre-installed, but you can update it using your package manager.</li>
+    </ul>
+    <p>Once installed, you can verify the installation by running <code>python --version</code> in your terminal.</p>
+  </section>
+
+  <section class="main-section" id="Basic_Syntax">
+    <header>Basic Syntax</header>
+    <p>Python's syntax is designed to be intuitive and close to natural language.</p>
+    <p>Here is an example of a simple Python program:</p>
+    <code>
+      def greet(name):<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;return f"Hello, {name}!"<br>
+      print(greet("Alice"))
+    </code>
+    <p>Indentation is crucial in Python and is used to define the scope of loops, functions, and conditionals.</p>
+    <p>Variables in Python do not require explicit declaration of their data types.</p>
+  </section>
+
+  <section class="main-section" id="Standard_Libraries">
+    <header>Standard Libraries</header>
+    <p>Python comes with a rich standard library that provides modules and functions for various tasks.</p>
+    <p>Some of the most commonly used libraries include:</p>
+    <ul>
+      <li><code>os</code>
+      Provides a way of using operating system-dependent functionality.</li>
+      <li><code>sys</code> Access to some variables used or maintained by the Python interpreter.</li>
+      <li><code>math</code> Mathematical functions like <code>sqrt</code> <code>sin</code> <code>cos</code></li>
+      <li><code>datetime</code> Tools for working with dates and times.</li>
+    </ul>
+    <p>These libraries can be imported using the <code>import</code> statement at the beginning of your Python script.</p>
+  </section>
+
+  <section class="main-section" id="Error_Handling_and_Debugging">
+    <header>Error Handling and Debugging</header>
+    <p>Python provides robust error handling through the use of try-except blocks.</p>
+    <code>
+      try:<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;x = 10 / 0<br>
+      except ZeroDivisionError:<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;print("Cannot divide by zero")
+    </code>
+    <p>Errors in Python are categorized into exceptions, and each type of exception is represented by a class.</p>
+    <p>Debugging can be done using the built-in <code>pdb</code> module or other IDE-based tools.</p>
+  </section>
+
+  <section class="main-section" id="Best_Practices_and_Coding_Style">
+    <header>Best Practices and Coding Style</header>
+    <p>Following best practices in Python helps in writing clean, efficient, and maintainable code.</p>
+    <p>PEP 8 is the style guide for Python code, recommending practices like proper indentation, line length, and naming conventions.</p>
+    <p>It's important to write readable code with comments that explain the logic where necessary.</p>
+    <ul>
+      <li>Use meaningful variable names.</li>
+      <li>Keep your functions small and focused on a single task.</li>
+      <li>Use docstrings to document your functions and modules.</li>
+    </ul>
+    <p>Adhering to these practices will make your code more understandable and easier to debug or extend by others.</p>
+  </section>
+  <footer>
+    <p>Documentation assembled and presented to you by CHERIFI Lounis</p>
+  </footer>
+</main>
+
+    </body>
+
+  </html>
